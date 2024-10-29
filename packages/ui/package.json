@@ -1,0 +1,23 @@
+{
+  "name": "@monorep/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./index.ts",
+  "module": "./index.ts",
+  "types": "./types.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RayBob1993/monorep.git",
+    "directory": "packages/ui"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.ts"
+    }
+  },
+  "private": true
+}
