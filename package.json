@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "resolutions": {
     "@monorep/core": "workspace:*",
     "@monorep/ui": "workspace:*"
   }

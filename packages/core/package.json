@@ -5,19 +5,20 @@
   "description": "",
   "main": "./index.ts",
   "module": "./index.ts",
-  "types": "./types.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RayBob1993/monorep.git",
+    "url": "git+https://github.com/RayBob1993/monorep.git",
     "directory": "packages/core"
   },
   "exports": {
     ".": {
-      "import": "./index.ts"
-    }
+      "import": "./index.ts",
+      "types": "./types.ts"
+    },
+    "./package.json": "./package.json"
   },
   "private": false
 }
